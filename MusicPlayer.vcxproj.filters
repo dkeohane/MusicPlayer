@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{fae07603-284e-48ee-9cd7-415b5d86c2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Composite">
+      <UniqueIdentifier>{474347b0-f9b5-4468-ba99-cc39a38a3020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Composite">
+      <UniqueIdentifier>{58d6963d-9aa9-49dd-afe5-2512a761440b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MenuComponents">
+      <UniqueIdentifier>{24c8764f-4d4f-4592-a681-e138021c325b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MenuComponents">
+      <UniqueIdentifier>{c8890974-267b-4cf6-aedc-39a0fae9ece8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{7b6449b4-523a-409b-aae4-32f028c95272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{05e994ba-9cb0-4ad5-8806-20585f5cb401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observer">
+      <UniqueIdentifier>{c4a79435-9dc1-40b2-b069-c52d398b397e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Observer">
+      <UniqueIdentifier>{c89de5e6-7f23-458e-8137-8643a77c0924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visitor">
+      <UniqueIdentifier>{8d40c2ba-0449-4578-8778-389ee195aafe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visitor">
+      <UniqueIdentifier>{8f55969d-20b0-4bf1-9d84-1b8acc8f8bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Builder">
+      <UniqueIdentifier>{92ed545b-4217-4ae2-9492-9a9f39876243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Builder">
+      <UniqueIdentifier>{e257802f-ed2c-49c9-91fb-6dae8cf477ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SongGroup.cpp">
+      <Filter>Source Files\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Song.cpp">
+      <Filter>Source Files\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuComponentText.cpp">
+      <Filter>Source Files\MenuComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuComponentTexture.cpp">
+      <Filter>Source Files\MenuComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SongsMenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="I_Subject.cpp">
+      <Filter>Source Files\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySongCompVisitor.cpp">
+      <Filter>Source Files\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuComponentBuilder.cpp">
+      <Filter>Source Files\Builder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuBackCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuSelectCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuUpCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuDownCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="I_SongComponent.h">
+      <Filter>Header Files\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Song.h">
+      <Filter>Header Files\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="SongGroup.h">
+      <Filter>Header Files\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuComponent.h">
+      <Filter>Header Files\MenuComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuComponentTexture.h">
+      <Filter>Header Files\MenuComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuComponentText.h">
+      <Filter>Header Files\MenuComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="I_State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SongsMenuState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="NoCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SongsMenuBackCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SongsMenuDownCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SongsMenuSelectCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SongsMenuUpCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuLeftCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuRightCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SongsMenuLeftCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SongsMenuRightCommand.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Observer.h">
+      <Filter>Header Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Subject.h">
+      <Filter>Header Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="addSongCompVisitor.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySongCompVisitor.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuComponentBuilder.h">
+      <Filter>Header Files\Builder</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

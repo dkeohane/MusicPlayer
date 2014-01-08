@@ -1,0 +1,15 @@
+// Header file for easily including all Commands
+
+#include "MainMenuBackCommand.h"
+#include "MainMenuSelectCommand.h"
+#include "MainMenuUpCommand.h"
+#include "MainMenuDownCommand.h"
+#include "MainMenuLeftCommand.h"
+#include "MainMenuRightCommand.h"
+#include "NoCommand.h"
+#include "SongsMenuSelectCommand.h"
+#include "SongsMenuBackCommand.h"
+#include "SongsMenuUpCommand.h"
+#include "SongsMenuDownCommand.h"
+#include "SongsMenuLeftCommand.h"
+#include "SongsMenuRightCommand.h"
